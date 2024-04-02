@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Trivia</title>
+    <!-- css -->
+    <link rel="stylesheet" href="index.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="containerr">
+        <div class="flex justify-between">
+            <input id="num" type="number" placeholder="Number"
+                class="text-[1.25em] outline-none border rounded-[.4em] w-[40%] border-px border-solid border-[#bdbdbf] p-[.6em]">
+            <button id="get-fact-btn"
+                class="text-[1.25em] outline-none border-none rounded-[.4em] w-[55%] bg-[#566fff] text-white p-[.7em] cursor-pointer">Get
+                Fact</button>
+        </div>
+        <button
+            class="text-[1.25em] outline-none border-none rounded-[.4em] w-[55%] bg-[#566fff] text-white p-[.7em] cursor-pointer"
+            id="ran-fact-btn">Get Radom Fact</button>
+        <div class="fact"></div>
+    </div>
+
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- js -->
+    <script src="index.js"></script>
+</body>
+
+</html>

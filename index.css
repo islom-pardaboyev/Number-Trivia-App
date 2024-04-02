@@ -1,0 +1,72 @@
+/* Google Fonts (Poppins) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #566fff;
+}
+
+.containerr {
+  background: #fff;
+  width: 95vw;
+  font-size: 16px;
+  max-width: 31.15em;
+  padding: 3.5em 2.5em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.6em;
+  box-shadow: 0 1.2em 3em rgba(0, 4, 52, 0.2);
+}
+
+#ran-fact-btn {
+  width: 100%;
+  margin-top: 1em;
+}
+
+.fact {
+  background: #fff;
+  box-shadow: 0 0 1.2em rgba(0, 4, 52, 0.1);
+  margin: 3em auto 0 auto;
+  padding: 2.8em;
+  border-radius: 0.6em;
+  border: none;
+  border-bottom: 0.6em solid #566fff;
+  display: none;
+}
+
+.fact h2 {
+  font-size: 2.8em;
+  color: #181a34;
+}
+
+.fact p {
+  font-size: 1.15em;
+  font-weight: 400;
+  color: #50526b;
+  line-height: 1.8em;
+  text-align: justify;
+  margin-top: 0.8em;
+}
+
+.modal {
+  background: #fff;
+  position: absolute;
+  font-size: 25px;
+  text-align: center;
+  padding: 2rem 5rem;
+  border-radius: 5px;
+  transform: translate(-50%, -50%) scale(0.1);
+  top: 50%;
+  visibility: hidden;
+  box-shadow: 0 1.2em 3em rgba(0, 4, 52, 0.2);
+  left: 50%;
+}
